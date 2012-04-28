@@ -1,4 +1,1 @@
-frontend-delight
-================
-
-Sublime Text Theme specifically designed for Front End lengauges by Bernat Fortet
+![Bernat's FrontEnd Delight](http://labs.bernatfortet.com/Sublime/ForntEndDelight.png "Bernat's FrontEnd Delight Demo")
