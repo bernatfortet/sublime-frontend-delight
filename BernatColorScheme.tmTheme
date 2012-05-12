@@ -125,7 +125,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.single.js, string.quoted.double.attribute-value.css</string>
+			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.single.js, string.quoted.double.attribute-value.css, string.quoted.double.ruby, string.quoted.single.ruby, string.quoted.single.coffee, string.quoted.double.coffee </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -178,12 +178,43 @@
 			</dict>
 		</dict>
 
-		<!-- JS  ----------------------------------------------- -->
+		<!-- RUBY   ----------------------------------------------- -->
+		<dict>
+			<key>name</key> <!-- this -->
+			<string>Ruby :elem</string>
+			<key>scope</key>
+			<string>constant.other.symbol.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#3fa5d4</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key> <!-- this -->
+			<string>Ruby :elem</string>
+			<key>scope</key>
+			<string>support.class.ruby </string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ee7561</string>
+			</dict>
+		</dict>
+
+		
+
+		<!-- JS - COFFEE  ----------------------------------------------- -->
 		<dict>
 			<key>name</key> <!-- this -->
 			<string>JS this</string>
 			<key>scope</key>
-			<string>variable.language.js</string>
+			<string>variable.language.js, variable.assignment.coffee, variable.language.coffee</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
