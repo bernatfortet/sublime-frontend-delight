@@ -18,7 +18,7 @@
 				<key>caret</key>
 				<string>#D6D6D6</string>
 				<key>foreground</key>
-				<string>#bbbbbb</string>
+				<string>#cccccc</string>
 				<key>invisibles</key>
 				<string>#A5A5A552</string>
 				<key>lineHighlight</key>
@@ -36,7 +36,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment, string.comment.buffered.block.jade</string>
+			<string>comment</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -125,7 +125,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.single.js, string.quoted.double.attribute-value.css, string.quoted.double.ruby, string.quoted.single.ruby, string.quoted.single.coffee, string.quoted.double.coffee </string>
+			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.double.ruby </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -160,7 +160,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FC0</string> <!--f64861--> 
+				<string>#f64861</string>
 			</dict>
 		</dict>
 
@@ -178,65 +178,6 @@
 			</dict>
 		</dict>
 
-		<!-- RUBY   ----------------------------------------------- -->
-		<dict>
-			<key>name</key> <!-- this -->
-			<string>Ruby :elem</string>
-			<key>scope</key>
-			<string>constant.other.symbol.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#3fa5d4</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key> <!-- this -->
-			<string>Ruby :elem</string>
-			<key>scope</key>
-			<string>support.class.ruby </string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#ee7561</string>
-			</dict>
-		</dict>
-
-		
-
-		<!-- JS - COFFEE  ----------------------------------------------- -->
-		<dict>
-			<key>name</key> <!-- this -->
-			<string>JS this</string>
-			<key>scope</key>
-			<string>variable.language.js, variable.assignment.coffee, variable.language.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#f6485d</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>JS Boolean</string>
-			<key>scope</key>
-			<string>constant.language.boolean.false.js, constant.language.boolean.true.js, constant.language.null.js</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#f6485d</string>
-			</dict>
-		</dict>
 
 		<!-- JSON  ----------------------------------------------- -->
 
@@ -397,13 +338,13 @@
 			</dict>
 		</dict>
 
-		<!-- JADE ------------------------------------------------- -->
+		<!-- JADE + HAML ------------------------------------------------- -->
 
 		<dict>
 			<key>name</key>
 			<string>Jade Tag</string>
 			<key>scope</key>
-			<string>entity.name.tag.jade, entity.name.tag.script.jade</string>
+			<string>entity.name.tag.jade, entity.name.tag.script.jade, entity.name.tag.haml </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -415,7 +356,7 @@
 			<key>name</key>
 			<string>Jade Class</string>
 			<key>scope</key>
-			<string>string.name.classes.tag.jade, text.jade</string>
+			<string>string.name.classes.tag.jade, entity.name.tag.class.haml </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -443,7 +384,7 @@
 			<key>name</key>
 			<string>CSS Selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, meta.selector.css</string>
+			<string>entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -457,7 +398,7 @@
 			<key>name</key>
 			<string>CSS Pseudo Selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, meta.attribute-selector.css </string>
+			<string>entity.other.attribute-name.pseudo-class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
