@@ -36,7 +36,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, string.comment.buffered.block.jade </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
