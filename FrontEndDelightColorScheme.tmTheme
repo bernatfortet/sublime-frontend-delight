@@ -9,7 +9,8 @@
 	<key>name</key>
 	<string>Bernat's FrontEnd Deligh</string>
 	<key>settings</key>
-	<array>
+	<array><dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_000000FF</string><key>settings</key><dict><key>background</key><string>#000000FF</string><key>caret</key><string>#FFFFFFFF</string><key>foreground</key><string>#FFFFFFFF</string></dict></dict>
+
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -125,7 +126,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.double.ruby, string.quoted.double.coffee  </string>
+			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.double.ruby, string.quoted.double.coffee, string.quoted.single.coffee  </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
