@@ -9,8 +9,7 @@
 	<key>name</key>
 	<string>Bernat's FrontEnd Deligh</string>
 	<key>settings</key>
-	<array><dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_000000FF</string><key>settings</key><dict><key>background</key><string>#000000FF</string><key>caret</key><string>#FFFFFFFF</string><key>foreground</key><string>#FFFFFFFF</string></dict></dict>
-
+	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -19,7 +18,7 @@
 				<key>caret</key>
 				<string>#D6D6D6</string>
 				<key>foreground</key>
-				<string>#cccccc</string>
+				<string>#bbbbbb</string>
 				<key>invisibles</key>
 				<string>#A5A5A552</string>
 				<key>lineHighlight</key>
@@ -37,7 +36,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment, string.comment.buffered.block.jade </string>
+			<string>comment, string.comment.buffered.block.jade</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -126,7 +125,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.double.ruby, string.quoted.double.coffee, string.quoted.single.coffee  </string>
+			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.single.js, string.quoted.double.attribute-value.css, string.quoted.double.ruby, string.quoted.single.ruby, string.quoted.single.coffee, string.quoted.double.coffee, meta.string-contents.quoted.double.php, string.quoted.double.php, string.quoted.single.php, meta.string-contents.quoted.single.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -161,7 +160,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#f64861</string>
+				<string>#FC0</string> <!--f64861--> 
 			</dict>
 		</dict>
 
@@ -169,7 +168,7 @@
 			<key>name</key>
 			<string>Punctuation / Delimitation / Separation </string>
 			<key>scope</key>
-			<string>punctuation.definition.parameters, meta.brace, meta.delimiter</string>
+			<string>punctuation.definition.parameters, meta.brace, meta.delimiter, punctuation.terminator.expression.php, source.php.embedded.block.html, keyword.operator.class.php </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -179,22 +178,110 @@
 			</dict>
 		</dict>
 
-
-		<!-- Javascript + Coffe  ----------------------------------------------- -->
+		<!-- PHP   ----------------------------------------------- -->
 		<dict>
 			<key>name</key>
-			<string>JSON Base</string>
+			<string>PHP Orange</string>
 			<key>scope</key>
-			<string>variable.language.coffee </string>
+			<string>support.class.php, variable.other.global.safer.php, support.function.php_date.php   </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#f64861</string>
+				<string>#ff8b19</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Grey</string>
+			<key>scope</key>
+			<string>text.html.basic, variable.other.global.php, variable.other.php, meta.function-call.object.php, variable.other.property.php, support.function.filestat.php, meta.function-call.static.php, support.function.head.php </string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#bbbbbb</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key> <!-- Booleans / LOGICAL-->
+			<string>PHP Red</string>
+			<key>scope</key>
+			<string>constant.language.php, keyword.operator.logical.php, punctuation.definition.variable.php  </string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#f6485d</string>
+			</dict>
+		</dict>
+
+
+
 		
+		<!-- RUBY   ----------------------------------------------- -->
+		<dict>
+			<key>name</key> <!-- this -->
+			<string>Ruby :elem</string>
+			<key>scope</key>
+			<string>constant.other.symbol.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#3fa5d4</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key> <!-- this -->
+			<string>Ruby :elem</string>
+			<key>scope</key>
+			<string>support.class.ruby </string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ee7561</string>
+			</dict>
+		</dict>
+
+		
+
+		<!-- JS - COFFEE  ----------------------------------------------- -->
+		<dict>
+			<key>name</key> <!-- this -->
+			<string>JS this</string>
+			<key>scope</key>
+			<string>variable.language.js, variable.assignment.coffee, variable.language.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#f6485d</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>JS Boolean</string>
+			<key>scope</key>
+			<string>constant.language.boolean.false.js, constant.language.boolean.true.js, constant.language.null.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#f6485d</string>
+			</dict>
+		</dict>
 
 		<!-- JSON  ----------------------------------------------- -->
 
@@ -355,13 +442,13 @@
 			</dict>
 		</dict>
 
-		<!-- JADE + HAML ------------------------------------------------- -->
+		<!-- JADE ------------------------------------------------- -->
 
 		<dict>
 			<key>name</key>
 			<string>Jade Tag</string>
 			<key>scope</key>
-			<string>entity.name.tag.jade, entity.name.tag.script.jade, entity.name.tag.haml </string>
+			<string>entity.name.tag.jade, entity.name.tag.script.jade</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -373,7 +460,7 @@
 			<key>name</key>
 			<string>Jade Class</string>
 			<key>scope</key>
-			<string>string.name.classes.tag.jade, entity.name.tag.class.haml </string>
+			<string>string.name.classes.tag.jade, text.jade</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -401,7 +488,7 @@
 			<key>name</key>
 			<string>CSS Selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css</string>
+			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, meta.selector.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -415,7 +502,7 @@
 			<key>name</key>
 			<string>CSS Pseudo Selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class.css</string>
+			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, meta.attribute-selector.css </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
