@@ -210,7 +210,7 @@
 			<key>name</key> <!-- Booleans / LOGICAL-->
 			<string>PHP Red</string>
 			<key>scope</key>
-			<string>constant.language.php, keyword.operator.logical.php, punctuation.definition.variable.php  </string>
+			<string>constant.language.php, keyword.operator.logical.php, punctuation.definition.variable.php, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
