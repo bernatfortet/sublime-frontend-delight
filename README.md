@@ -13,4 +13,4 @@ Installation
 
 Credits
 -------
-[Socrattes](https://github.com/socrattes)
+[Bernat Fortet](https://github.com/bernatfortet)
