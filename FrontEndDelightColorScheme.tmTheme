@@ -183,7 +183,7 @@
 			<key>name</key>
 			<string>PHP Orange</string>
 			<key>scope</key>
-			<string>support.class.php, variable.other.global.safer.php, support.function.php_date.php   </string>
+			<string>support.class.php, variable.other.global.safer.php, entity.name.type.class.php, entity.other.inherited-class.php, meta.function.php </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -210,7 +210,7 @@
 			<key>name</key> <!-- Booleans / LOGICAL-->
 			<string>PHP Red</string>
 			<key>scope</key>
-			<string>constant.language.php, keyword.operator.logical.php, punctuation.definition.variable.php, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php </string>
+			<string>constant.language.php, keyword.operator.logical.php, punctuation.definition.variable.php, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, variable.other.class.php, constant.other.class.php, .construct.php   </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -219,6 +219,23 @@
 				<string>#f6485d</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key> <!-- Booleans / LOGICAL-->
+			<string>PHP White</string>
+			<key>scope</key>
+			<string>support.function, support.function.array.php, meta.function-call.php, constant.other.php </string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#bbbbbb</string>
+			</dict>
+		</dict>
+		
+
+
 
 
 
