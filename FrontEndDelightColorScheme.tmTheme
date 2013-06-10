@@ -125,7 +125,8 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.single.js, string.quoted.double.attribute-value.css, string.quoted.double.ruby, string.quoted.single.ruby, string.quoted.single.coffee, string.quoted.double.coffee, meta.string-contents.quoted.double.php, string.quoted.double.php, string.quoted.single.php, meta.string-contents.quoted.single.php</string>
+			<string>string.quoted.double.css, string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.single.js, string.quoted.double.attribute-value.css, string.quoted.double.ruby, string.quoted.single.ruby, string.quoted.single.coffee, string.quoted.double.coffee, meta.string-contents.quoted.double.php, string.quoted.double.php, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.variable.parameter.url, string.quoted.single.css
+ </string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -388,36 +389,6 @@
 			</dict>
 		</dict>
 
-		<!-- Inverted XML --
-		<dict>
-			<key>name</key>
-			<string>XML Base</string>
-			<key>scope</key>
-			<string>text.xml</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#72666490</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>XML Base</string>
-			<key>scope</key>
-			<string>entity.name.tag.localname.xml, punctuation.definition.tag.begin.xml, punctuation.definition.tag.end.xml</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#ccc</string>
-			</dict>
-		</dict>
-		<!-- END Inverted XML -->
-
 		<!-- HTML ------------------------------------------------- -->
 		<dict>
 			<key>name</key>
@@ -505,7 +476,7 @@
 			<key>name</key>
 			<string>CSS Selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, meta.selector.css</string>
+			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, meta.selector.css, variable.declaration.less</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
