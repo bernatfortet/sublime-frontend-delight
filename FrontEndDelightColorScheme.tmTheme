@@ -125,8 +125,8 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.css, string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.single.js, string.quoted.double.attribute-value.css, string.quoted.double.ruby, string.quoted.single.ruby, string.quoted.single.coffee, string.quoted.double.coffee, meta.string-contents.quoted.double.php, string.quoted.double.php, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.variable.parameter.url, string.quoted.single.css
- </string>
+			<string>string.quoted.double.css, string.quoted.double.js, variable.parameter.url, string.quoted.jade, string.quoted.single.js, string.quoted.double.attribute-value.css, string.quoted.double.ruby, string.quoted.single.ruby, string.quoted.single.coffee, string.quoted.double.coffee, meta.string-contents.quoted.double.php, string.quoted.double.php, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.variable.parameter.url, string.quoted.single.css, string.quoted.single.css 
+ 			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -458,23 +458,61 @@
 
 
 
-		<!-- CSS  ----------------------------------------------- -->
-
+		<!-- CSS & LESS ----------------------------------------------- -->
 		<dict>
 			<key>name</key>
-			<string>CSS Source</string>
+			<string>CSS Source - Low Grey</string>
 			<key>scope</key>
-			<string>source.css</string>
+			<string>source.css, source.less, punctuation.definition.entity.css </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ccc</string>
+				<string>#4d4e4e</string>
 			</dict>
 		</dict>
 
 		<dict>
 			<key>name</key>
-			<string>CSS Selector</string>
+			<string>Light Grey - CSS Property</string>
+			<key>scope</key>
+			<string>meta.property-name.css, support.type.property-name.css, support.type.property-name.css.vendor, constant.numeric.css, support.constant.property-value.css, support.type.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>CSS Values - Lowered greenish grey</string>
+			<key>scope</key>
+			<string>constant.numeric.css, keyword.unit.css, constant.other.color.rgb-value.css, constant.other.color.rgb-value.css, support.constant.property-value.css, constant.numeric.css keyword.other.unit.css, keyword.operator.less, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-element.css, support.constant.color.w3c-standard-color-name.css, meta.property-value.css
+ 			</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#5c6461</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Jade Color - CSS Import </string>
+			<key>scope</key>
+			<string>meta.at-rule.import.css, keyword.control.at-rule, support.function.less, support.function.any-method.builtin.less </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49afb5</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>CSS Selector - Orange</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, meta.selector.css, variable.declaration.less</string>
 			<key>settings</key>
@@ -488,44 +526,15 @@
 
 		<dict>
 			<key>name</key>
-			<string>CSS Pseudo Selector</string>
+			<string>LESS Variables</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, meta.attribute-selector.css </string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#f64861</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>CSS Property</string>
-			<key>scope</key>
-			<string>meta.property-name.css, support.type.property-name.css, support.type.property-name.css.vendor, constant.numeric.css, support.constant.property-value.css, support.type.property-name.css</string>
+			<string>variable.other.less</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cccccc</string>
+				<string>#fb5b1d</string>
 			</dict>
 		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>CSS Values</string>
-			<key>scope</key>
-			<string>constant.numeric.css, keyword.unit.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#696A59</string>
-			</dict>
-		</dict>
-
 
 		<dict>
 			<key>name</key>
@@ -541,55 +550,15 @@
 
 		<dict>
 			<key>name</key>
-			<string>Keyword -&gt; CSS</string>
+			<string>Red Stuff</string>
 			<key>scope</key>
-			<string>constant.other.color.rgb-value.css, support.constant.property-value.css</string>
+			<string> entity.other.attribute-name.attribute.css </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#696A59</string>
+				<string>#f6475d</string>
 			</dict>
 		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>CSS Import</string>
-			<key>scope</key>
-			<string>meta.at-rule.import.css, keyword.control.at-rule </string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#49afb5</string>
-			</dict>
-		</dict>
-
-
-		<!-- LESS  ----------------------------------------------- -->
-		
-		<dict>
-			<key>name</key>
-			<string>Less Builtin Methods</string>
-			<key>scope</key>
-			<string>support.function.any-method.builtin.less</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#5ec8eb</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS Variables</string>
-			<key>scope</key>
-			<string>variable.other.less</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fb5b1d</string>
-			</dict>
-		</dict>
-
-		
 
 
 	</array>
