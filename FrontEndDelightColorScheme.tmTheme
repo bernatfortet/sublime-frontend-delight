@@ -491,7 +491,29 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Blue - Jade div Class</string>
+			<key>scope</key>
+			<string>string.name.classes.tag.jade </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3897e8</string>
+			</dict>
+		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Teal - Jade Tag</string>
+			<key>scope</key>
+			<string>constant.id.tag.jade  </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#50d1d9</string>
+			</dict>
+		</dict>
 
 
 		<!-- CSS & LESS ----------------------------------------------- -->
