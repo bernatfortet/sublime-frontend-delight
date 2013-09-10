@@ -610,7 +610,7 @@
 			<key>name</key>
 			<string>Red Stuff</string>
 			<key>scope</key>
-			<string> entity.other.attribute-name.attribute.css </string>
+			<string> entity.other.attribute-name.attribute.css, entity.other.attribute-name.pseudo-class.css, keyword.operator.less </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
