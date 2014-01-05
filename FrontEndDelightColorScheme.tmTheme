@@ -483,7 +483,7 @@
 			<key>name</key>
 			<string>Orange - Jade Class</string>
 			<key>scope</key>
-			<string>meta.first-class.jade variable.control.import.include.jade </string>
+			<string>meta.first-class.jade, variable.control.import.include.jade </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -495,7 +495,7 @@
 			<key>name</key>
 			<string>Blue - Jade div Class</string>
 			<key>scope</key>
-			<string>string.name.classes.tag.jade </string>
+			<string>tag.jade, complete_tag.jade, string.name.classes.tag.jade </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
